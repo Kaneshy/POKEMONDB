@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+:root {
+    --containersong-color: linear-gradient(180deg, #190019 10%, #854f6c 90%);
+}
+
+body {
+    background: var(--containersong-color);
+}
+
+.containerCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #DFB6B2;
+    height: auto;
+    min-height: 95vh;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-card img {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.7s;
+    border-radius: 20px;
+}
+
+.containerCard h1 {
+    font-size: 40px;
+    padding: 30px 0;
+    font-family: 'Agbalumo';
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 40px;
+    border-radius: 15px;
+    background-color: #522b5b;
+    margin-top: 25px;
+}
+
+.info-card-short {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 15px;
+
+}

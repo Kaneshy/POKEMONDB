@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+.navbar {
+    color: #190019;
+    background-color: white;
+    font-family: Agbalumo;
+    user-select: none;
+}
+
+.Links {
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+
+.Links:hover {
+    background-color: #ffd5ff;
+}

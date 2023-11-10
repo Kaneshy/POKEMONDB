@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+:root {
+    --containerTarjet-color: linear-gradient(180deg, #522b5b 10%, #854f6c 90%);
+}
+
+.containerMP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background: var(--containerTarjet-color);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: #190019;
+}
+
+.info h1 {
+    font-family: Agbalumo;
+}
+
+.cinfoMainpage {
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    background-color: #ffffff;
+    user-select: none;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+@media (max-width: 650px) {
+    .cinfoMainpage {
+        display: flex;
+        flex-direction: column;
+    }
+}

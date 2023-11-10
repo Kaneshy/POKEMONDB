@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+:root {
+    --containersong-color: linear-gradient(120deg, #190019 10%, #DFB6B2 90%);
+    --containerTarjet-color: linear-gradient(180deg, #522b5b 10%, #854f6c 90%);
+}
+
+body {
+    background: var(--containerTarjet-color);
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    user-select: none;
+}
+
+.container-form {
+    background: white;
+    padding: 50px 0;
+}
+
+.card h2 {
+    color: black;
+    font-family: 'Agbalumo';
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #8f00fd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.container-images {
+    min-height: 80vh;
+    user-select: none;
+}
+
+.isLoadingAcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Agbalumo';
+    font-size: 30px;
+    min-height: 95vh;
+}

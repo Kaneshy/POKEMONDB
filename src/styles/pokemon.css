@@ -1,0 +1,22 @@
+
+
+.containerB {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background-color: rgb(216, 216, 216);
+}
+
+.containerB div {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerfetchpokemon {
+    max-width: 1200px;
+    margin: 0 auto;
+}

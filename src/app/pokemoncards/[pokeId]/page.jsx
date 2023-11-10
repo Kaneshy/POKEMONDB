@@ -32,7 +32,7 @@ async function page({ params }) {
         <section className="containerCard" >
             <div className="img-card">
                 <h1>{card.name}</h1>
-                <img width={500} src={card.images.large} alt="" />
+                <img  src={card.images.large} alt="" />
             </div>
             <div className="info-card">
                 <h1>Info</h1>

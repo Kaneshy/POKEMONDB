@@ -6,7 +6,7 @@ function MainPage() {
     <section className='containerMP' >
       <div className='cinfoMainpage' >
         <div className='info' >
-          <h1>POKEDEX DB</h1>
+          <h1>POKEDEX</h1>
           <p >Encuentra todas las cartas pokemon el la seccion CARDS e imagens PNG en la seccion Img PNG</p>
           <Link href='/pokemoncards' className='btn' >GET STARTED</Link>
         </div>
